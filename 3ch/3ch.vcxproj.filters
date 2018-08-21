@@ -48,4 +48,9 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="sampledata.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
 </Project>
