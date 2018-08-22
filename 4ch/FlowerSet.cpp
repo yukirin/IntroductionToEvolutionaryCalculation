@@ -1,9 +1,10 @@
 #include "stdafx.h"
 #include "FlowerSet.h"
 
+
 // コンストラクタ
 // fileName: データセットのファイル名
-FlowerSet::FlowerSet(char *fileName)
+FlowerSet::FlowerSet(const char *fileName)
 {
     int i, best;
 

@@ -1,11 +1,13 @@
 #include "stdafx.h"
 #include "Dataset.h"
 
+#pragma warning(disable:4996)
+
 using namespace std;
 
 // コンストラクタ
 // fileName: データセットのファイル名
-Dataset::Dataset(char *fileName)
+Dataset::Dataset(const char *fileName)
 {
     int i, j, columnNum;
     char line[1024];

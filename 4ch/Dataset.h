@@ -10,7 +10,7 @@
 class Dataset
 {
   public:
-    Dataset(char *fileName);
+    Dataset(const char *fileName);
     ~Dataset();
     void setCoef(double *sCoef); // 標準偏回帰係数から偏回帰係数を求める
     void printEquation();        // 重回帰式を表示する

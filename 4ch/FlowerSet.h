@@ -6,7 +6,7 @@ class Flower;
 class FlowerSet
 {
   public:
-    FlowerSet(char *fileName);
+    FlowerSet(const char *fileName);
     ~FlowerSet();
     void employedBeePhase(); // 収穫バチフェーズを実行する
     void onlookerBeePhase(); // 追従バチフェーズを実行する
