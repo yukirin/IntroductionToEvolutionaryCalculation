@@ -89,6 +89,8 @@ void Colony::printPheromone()
 {
   int i, j;
 
+  using namespace std;
+
   for (i = 0; i < field->nodeNum; i++)
   {
     for (j = 0; j < field->nodeNum; j++)
