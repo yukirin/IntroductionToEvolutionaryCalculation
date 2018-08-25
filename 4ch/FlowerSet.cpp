@@ -82,7 +82,7 @@ void FlowerSet::onlookerBeePhase()
             {
                 max = flower[i]->value;
             }
-            if (min < flower[i]->value)
+            if (min > flower[i]->value)
             {
                 min = flower[i]->value;
             }
