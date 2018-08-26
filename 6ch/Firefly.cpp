@@ -45,7 +45,7 @@ void Firefly::move(Firefly *base)
             pos[i] = pos[i] + ATTRACT * exp(-ABSORB * dis) * (base->pos[i] - pos[i]) + RANDOMIZE * (RAND_01 - 0.5);
         }
         evaluate();
-    }
+	}
 }
 
 // 光の強度を算出する
